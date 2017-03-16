@@ -1,0 +1,42 @@
+<PISI>
+    <Source>
+        <Name>python-functools32</Name>
+        <Packager>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Packager>
+        <License>Python-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Backport of the functools module from Python 3.2.3 for use with Python 2.7 and PyPy.</Summary>
+        <Description xml:lang="en">Backport of the functools module from Python 3.2.3 for use with Python 2.7 and PyPy. Includes `lru_cache` (Least-recently-used cache decorator).
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-functools32</Name>
+        <Summary xml:lang="en">Backport of the functools module from Python 3.2.3 for use with Python 2.7 and PyPy.</Summary>
+        <Description xml:lang="en">Backport of the functools module from Python 3.2.3 for use with Python 2.7 and PyPy. Includes `lru_cache` (Least-recently-used cache decorator).
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32-3.2.3_2-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32/_dummy_thread32.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32/_dummy_thread32.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32/functools32.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32/functools32.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32/reprlib32.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/functools32/reprlib32.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-03-16</Date>
+            <Version>3.2.3_2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,16 @@
+name       : python-functools32
+version    : 3.2.3_2
+release    : 1
+source     :
+    - https://github.com/MiCHiLU/python-functools32/archive/3.2.3-2.tar.gz : fb47cbb95f3570d652a2a05c2aac1b98d1dacb84f1fa02db6d91a6e290dc2d3b
+license    : Python-2.0
+component  : programming.python
+summary    : Backport of the functools module from Python 3.2.3 for use with Python 2.7 and PyPy.
+description: |
+    Backport of the functools module from Python 3.2.3 for use with Python 2.7 and PyPy. Includes `lru_cache` (Least-recently-used cache decorator).
+builddeps  :
+    - python-setuptools
+build      : |
+    %python_setup
+install    : |
+    %python_install
